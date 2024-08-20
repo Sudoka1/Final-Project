@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.swissflex.com/sites/default/files/blog/2018/02/Die-5-h%C3%B6chsten-Berge-der-Schweiz.png'); /* Update this path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

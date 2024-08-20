@@ -69,7 +69,7 @@ function App() {
   };
   return (
     <>
-      <h1>Einfache Demo zur Zusammenarbeit mit unserer API</h1>
+      <h1>Willkommen in einer anderen Welt!!!</h1>
       <h2>Hier hole ich alle Benutzerdaten</h2>
       <button onClick={getAllUsers}>Hole Daten!</button>
 
@@ -79,7 +79,7 @@ function App() {
         ))}
       </ul>
 
-      <h2>Hier einen neuen User erstellen</h2>
+      <h2>Registrierung</h2>
       <form onSubmit={registriereUser}>
         <div>
           <label htmlFor="vorname">Vorname: </label>
@@ -117,7 +117,7 @@ function App() {
       </form>
       <p>{registerAnswer}</p>
       
-      <h2>Anmelden nur mit email</h2>
+      <h2>Login</h2>
       <form onSubmit={loginHandler}>
         <div>
           <label htmlFor="email">Email: </label>
@@ -134,7 +134,7 @@ function App() {
       </form>
       <p>
         {eingeloggt
-          ? 'Du bist eingeloggt. Du darfst hier sogar geheime Sachen sehen!!!'
+          ? 'Du bist eingeloggt. Du darfst hier alle Dienste nutzen.'
           : 'Du bist nicht eingeloggt'}
       </p>
     </>
