@@ -60,6 +60,7 @@ function App() {
     if (response.ok) {
       setEingeloggt(true);
       localStorage.setItem('login', 'true');
+      window.location.href = 'https://browser-github-username-api.vercel.app/';
     } else {
       const data = await response.json();
       console.log(data);
